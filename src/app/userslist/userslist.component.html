@@ -1,0 +1,8 @@
+<div>
+  name: {{ name }} <br>
+  adress: {{ adress.street }} {{ adress.city }} <br>
+  hobbies:
+  <ul>
+    <li *ngFor='let hobby of hobbies'> {{hobby}} </li>
+  </ul>
+</div>
